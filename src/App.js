@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>MovieLand</h1>
+      <h1>Movies</h1>
 
       <div className="search">
         <input
@@ -46,7 +46,7 @@ const App = () => {
         </div>
       ) : (
         <div className="empty">
-          <h2>No movies found</h2>
+          <h2>No movies match your result</h2>
         </div>
       )}
     </div>

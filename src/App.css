@@ -14,7 +14,7 @@
 
 body {
   font-family: var(--font-roboto);
-  background-color: #212426;
+  background-color: rgb(23, 23, 23);
 }
 
 .app {
@@ -29,7 +29,7 @@ body {
 h1 {
   font-size: 3rem;
   letter-spacing: 0.9px;
-  color: wheat;
+  color: rgb(255, 255, 255);
  
 }
 
@@ -67,20 +67,7 @@ h1 {
   cursor: pointer;
 }
 
-/* .search button {
-  padding: 20px 40px;
-  border-radius: 0.5rem;
-  margin-left: 15px;
-  color: #a1a1a1;
-  font-family: var(--font-raleway);
-  font-weight: 900;
-  letter-spacing: 0.75px;
-  font-size: 1.25rem;
-  cursor: pointer;
-  background: #1f2123;
-  -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-} */
+
 
 .empty {
   width: 100%;
@@ -92,14 +79,14 @@ h1 {
 }
 
 .empty h2 {
-  font-size: 1.25rem;
+  font-size: 1.25em;
   color: #f9d3b4;
   font-family: var(--font-raleway);
 }
 
 .container {
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 3em;
 
   display: flex;
   justify-content: center;
